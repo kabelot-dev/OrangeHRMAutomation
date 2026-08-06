@@ -7,11 +7,11 @@ namespace HRM_Automation.Pages
 {
     internal class BasePage
     {
-        protected IWebDriver driver { get; set; }
+        protected IWebDriver Driver { get; set; }
 
-        public BasePage(WebDriver myDriver)
+        public BasePage(IWebDriver myDriver)
         {
-            this.driver = myDriver;
+            this.Driver = myDriver;
         }
     }
 }
